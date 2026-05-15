@@ -15,7 +15,7 @@ Test Plan
 ## 0. Context
 
 **Version:** 1.0  
-**Date:** 2025-05-15  
+**Date:** 2026-05-15  
 **Author:** Seyla Gomez 
 **Test Environment:** Staging — `https://www.saucedemo.com`  
 
