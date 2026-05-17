@@ -74,19 +74,18 @@ The following elements were intentionally excluded from this iteration of the pl
 - **P2 — High:** Affects important workflows but has a solution. Runs on major releases.
 - **P3 — Medium:** Improves the experience but does not block. Runs on full regression cycles.
 
-
 | Test Case | Summary |	Priority |	Type |
 |---|---|---|---|
-TC-001 |Log in with valid credentials | P1 | Happy path 
-TC-002 |Product search and filtering | P1 | Happy path 
-TC-003 |Add products to cart and remove products | P1 | Happy path 
-TC-004 |Complete checkout with valid information | P1 | Happy path 
-TC-005 |Log out with valid credentials  | P1 | Happy path 
-TC-006 |Log in with locked credentials  | P1 | Negative/Edge
+TC-001 |Successful login for user | P1 | Happy path 
+TC-002 |Product sorting | P1 | Happy path 
+TC-003 |Cart: add and remove product| P1 | Happy path 
+TC-004 |Checkout: successful purchase| P1 | Happy path 
+TC-005 |Successful logout for user| P1 | Happy path 
+TC-006 |Login blocked for U2| P1 | Negative/Edge
 TC-007 |Form with broken images and faulty behavior  | P1 | Negative/Edge
 TC-008 |Experience with slow responses  | P1 | Negative/Edge
 TC-009 |Application error handling  | P1 | Negative/Edge
-TC-010 |Payment with empty fields  | P1 | Negative/Edge
+TC-010 |Checkout: Purchase failed with invalid data | P1 | Negative/Edge
 TC-011 |Attempting to access checkout with no items in the cart | P2 | Negative/Edge
 TC-012 |Visual and design inconsistencies | P2 | Negative/Edge
 TC-013 |Simultaneous sessions of two users (slow response vs normal response) who purchase the same product with limited stock | P1 | Cross-user
